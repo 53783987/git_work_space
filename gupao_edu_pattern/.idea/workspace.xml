@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31014288-d99a-43f8-8d12-54f9f18c8d51" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="AliCloundDiskLoad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/ali/AliCloundDiskLoad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/gupao.edu.pattern.factory.service.ICloundDiskLoad" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/gupao.edu.pattern.factory.service.ICloundDiskLoad">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>gupao.edu.pattern.factory.service.ICloundDiskLoad</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">gupao.edu.pattern.factory.service.IFileLoad</node>
+                <node x="7.5" y="168.0">gupao.edu.pattern.factory.service.ICloundDiskLoad</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="gupao.edu.pattern.factory.service.ICloundDiskLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-23.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-336.5" y="131.5" />
+              <SelectedNodes>
+                <node>gupao.edu.pattern.factory.service.ICloundDiskLoad</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AliFTPLoad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/ali/AliFTPLoad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/gupao.edu.pattern.factory.simplefactory.FileLoadFactory" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/gupao.edu.pattern.factory.simplefactory.FileLoadFactory">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>gupao.edu.pattern.factory.simplefactory.FileLoadFactory</OriginalElement>
+              <nodes>
+                <node x="512.0" y="0.0">gupao.edu.pattern.factory.service.IFileLoad</node>
+                <node x="483.4999999999999" y="336.0">gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest</node>
+                <node x="768.0" y="186.0">gupao.edu.pattern.factory.simplefactory.FileLoadFactory</node>
+                <node x="512.0" y="168.0">gupao.edu.pattern.factory.service.impl.NASLoad</node>
+                <node x="0.0" y="168.0">gupao.edu.pattern.factory.service.impl.FTPLoad</node>
+                <node x="256.0" y="168.0">gupao.edu.pattern.factory.service.impl.CloudDisk</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="117.20000000000005" y="-59.0" />
+                  <point x="747.1999999999999" y="316.0" />
+                  <point x="1306.5" y="316.0" />
+                  <point x="1306.5" y="138.0" />
+                  <point x="724.4" y="138.0" />
+                  <point x="94.39999999999998" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.FTPLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="118.0" y="138.0" />
+                  <point x="535.6" y="138.0" />
+                  <point x="-94.39999999999998" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" target="gupao.edu.pattern.factory.simplefactory.FileLoadFactory">
+                  <point x="58.60000000000002" y="-59.0" />
+                  <point x="688.5999999999999" y="306.0" />
+                  <point x="1032.0" y="306.0" />
+                  <point x="0.0" y="41.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.CloudDisk" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="374.0" y="148.0" />
+                  <point x="582.8" y="148.0" />
+                  <point x="-47.200000000000045" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" target="gupao.edu.pattern.factory.service.impl.FTPLoad">
+                  <point x="-117.19999999999999" y="-59.0" />
+                  <point x="512.8" y="316.0" />
+                  <point x="118.0" y="316.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" target="gupao.edu.pattern.factory.service.impl.NASLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.simplefactory.FileLoadFactory" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-41.0" />
+                  <point x="1032.0" y="148.0" />
+                  <point x="677.2" y="148.0" />
+                  <point x="47.200000000000045" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.NASLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" target="gupao.edu.pattern.factory.service.impl.CloudDisk">
+                  <point x="-58.60000000000002" y="-59.0" />
+                  <point x="571.3999999999999" y="306.0" />
+                  <point x="374.0" y="306.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-109.0" y="189.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IFileLoadFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/factorymethod/IFileLoadFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/gupao.edu.pattern.factory.factorymethod.IFileLoadFactory" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/gupao.edu.pattern.factory.factorymethod.IFileLoadFactory">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>gupao.edu.pattern.factory.factorymethod.IFileLoadFactory</OriginalElement>
+              <nodes>
+                <node x="524.8888888888889" y="0.0">gupao.edu.pattern.factory.service.IFileLoad</node>
+                <node x="873.6155555555556" y="356.0">gupao.edu.pattern.factory.factorymethod.FTPLoadFactory</node>
+                <node x="579.5" y="488.0">gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest</node>
+                <node x="401.0233333333333" y="356.0">gupao.edu.pattern.factory.factorymethod.NASLoadFactory</node>
+                <node x="573.0" y="206.0">gupao.edu.pattern.factory.factorymethod.IFileLoadFactory</node>
+                <node x="286.5" y="188.0">gupao.edu.pattern.factory.service.impl.NASLoad</node>
+                <node x="889.0" y="188.0">gupao.edu.pattern.factory.service.impl.FTPLoad</node>
+                <node x="0.0" y="188.0">gupao.edu.pattern.factory.service.impl.CloudDisk</node>
+                <node x="85.02333333333331" y="356.0">gupao.edu.pattern.factory.factorymethod.CloudDiskFactory</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="gupao.edu.pattern.factory.factorymethod.IFileLoadFactory" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-41.0" />
+                  <point x="721.0" y="168.0" />
+                  <point x="657.6388888888889" y="168.0" />
+                  <point x="14.75" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.factorymethod.FTPLoadFactory" target="gupao.edu.pattern.factory.service.impl.FTPLoad">
+                  <point x="0.0" y="-41.0" />
+                  <point x="1021.6155555555556" y="336.0" />
+                  <point x="1007.0" y="336.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.FTPLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="1007.0" y="158.0" />
+                  <point x="687.1388888888889" y="158.0" />
+                  <point x="44.25" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.factorymethod.FTPLoadFactory" target="gupao.edu.pattern.factory.factorymethod.IFileLoadFactory">
+                  <point x="-98.66666666666674" y="-41.0" />
+                  <point x="922.9488888888889" y="336.0" />
+                  <point x="832.0" y="336.0" />
+                  <point x="111.0" y="41.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.factorymethod.NASLoadFactory" target="gupao.edu.pattern.factory.service.impl.NASLoad">
+                  <point x="-98.66666666666663" y="-41.0" />
+                  <point x="450.3566666666667" y="326.0" />
+                  <point x="404.5" y="326.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.factorymethod.FTPLoadFactory" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="98.66666666666674" y="-41.0" />
+                  <point x="1120.2822222222223" y="336.0" />
+                  <point x="1145.0" y="336.0" />
+                  <point x="1145.0" y="148.0" />
+                  <point x="716.6388888888889" y="148.0" />
+                  <point x="73.75" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.CloudDisk" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="118.0" y="138.0" />
+                  <point x="539.6388888888889" y="138.0" />
+                  <point x="-103.25" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.factorymethod.CloudDiskFactory" target="gupao.edu.pattern.factory.service.impl.CloudDisk">
+                  <point x="-98.66666666666669" y="-41.0" />
+                  <point x="134.35666666666668" y="336.0" />
+                  <point x="118.0" y="336.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.factorymethod.NASLoadFactory">
+                  <point x="-71.39999999999998" y="-59.0" />
+                  <point x="686.6" y="458.0" />
+                  <point x="549.0233333333333" y="458.0" />
+                  <point x="0.0" y="41.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.NASLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="5.6843418860808015E-14" y="-59.0" />
+                  <point x="404.50000000000006" y="158.0" />
+                  <point x="598.6388888888889" y="158.0" />
+                  <point x="-44.25" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.factorymethod.IFileLoadFactory">
+                  <point x="0.0" y="-59.0" />
+                  <point x="37.0" y="41.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.factorymethod.NASLoadFactory" target="gupao.edu.pattern.factory.factorymethod.IFileLoadFactory">
+                  <point x="98.66666666666669" y="-41.0" />
+                  <point x="647.69" y="336.0" />
+                  <point x="684.0" y="336.0" />
+                  <point x="-37.0" y="41.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.factorymethod.FTPLoadFactory">
+                  <point x="71.39999999999998" y="-59.0" />
+                  <point x="829.4" y="458.0" />
+                  <point x="1021.6155555555556" y="458.0" />
+                  <point x="0.0" y="41.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.factorymethod.CloudDiskFactory">
+                  <point x="-142.8" y="-59.0" />
+                  <point x="615.2" y="468.0" />
+                  <point x="233.0233333333333" y="468.0" />
+                  <point x="0.0" y="41.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.factorymethod.NASLoadFactory" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="5.6843418860808015E-14" y="-41.0" />
+                  <point x="549.0233333333333" y="326.0" />
+                  <point x="562.5" y="326.0" />
+                  <point x="562.5" y="168.0" />
+                  <point x="628.1388888888889" y="168.0" />
+                  <point x="-14.75" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.factorymethod.CloudDiskFactory" target="gupao.edu.pattern.factory.factorymethod.IFileLoadFactory">
+                  <point x="98.66666666666669" y="-41.0" />
+                  <point x="331.69" y="336.0" />
+                  <point x="610.0" y="336.0" />
+                  <point x="-111.0" y="41.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="142.79999999999995" y="-59.0" />
+                  <point x="900.8" y="468.0" />
+                  <point x="1180.1155555555556" y="468.0" />
+                  <point x="1180.1155555555556" y="138.0" />
+                  <point x="746.1388888888889" y="138.0" />
+                  <point x="103.25" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.factorymethod.CloudDiskFactory" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-41.0" />
+                  <point x="233.0233333333333" y="336.0" />
+                  <point x="246.5" y="336.0" />
+                  <point x="246.5" y="148.0" />
+                  <point x="569.1388888888889" y="148.0" />
+                  <point x="-73.75" y="59.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="656.0" y="301.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad</OriginalElement>
+              <nodes>
+                <node x="1336.3" y="312.0">gupao.edu.pattern.factory.service.impl.tencent.TencentNASLoad</node>
+                <node x="646.5723214285716" y="0.0">gupao.edu.pattern.factory.service.IFileLoad</node>
+                <node x="607.3" y="312.0">gupao.edu.pattern.factory.service.impl.ali.AliNASLoad</node>
+                <node x="1012.8223214285716" y="168.0">gupao.edu.pattern.factory.service.INASLoad</node>
+                <node x="32.30000000000007" y="312.0">gupao.edu.pattern.factory.service.impl.ali.AliCloundDiskLoad</node>
+                <node x="498.8" y="558.0">gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory</node>
+                <node x="1694.75" y="168.0">gupao.edu.pattern.factory.service.IFTPLoad</node>
+                <node x="863.3" y="294.0">gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory</node>
+                <node x="1604.3" y="312.0">gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad</node>
+                <node x="727.05" y="762.0">gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest</node>
+                <node x="291.30000000000007" y="312.0">gupao.edu.pattern.factory.service.impl.tencent.TencentCloundDiskLoad</node>
+                <node x="1227.8" y="558.0">gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory</node>
+                <node x="263.3285714285714" y="168.0">gupao.edu.pattern.factory.service.ICloundDiskLoad</node>
+                <node x="1932.721279761905" y="312.0">gupao.edu.pattern.factory.service.impl.tencent.TencentFTPLoad</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="gupao.edu.pattern.factory.service.impl.tencent.TencentCloundDiskLoad" target="gupao.edu.pattern.factory.service.ICloundDiskLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="433.30000000000007" y="274.0" />
+                  <point x="373.8285714285714" y="274.0" />
+                  <point x="0.0" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.INASLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-23.0" />
+                  <point x="1092.8223214285717" y="148.0" />
+                  <point x="794.0723214285716" y="148.0" />
+                  <point x="29.5" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory" target="gupao.edu.pattern.factory.service.IFTPLoad">
+                  <point x="151.0" y="-77.0" />
+                  <point x="1240.8" y="254.0" />
+                  <point x="1710.0499999999997" y="254.0" />
+                  <point x="-61.200000000000045" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.ali.AliCloundDiskLoad" target="gupao.edu.pattern.factory.service.ICloundDiskLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="151.80000000000007" y="274.0" />
+                  <point x="329.6285714285715" y="274.0" />
+                  <point x="-44.19999999999999" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.tencent.TencentNASLoad" target="gupao.edu.pattern.factory.service.INASLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="1454.3" y="244.0" />
+                  <point x="1124.8223214285717" y="244.0" />
+                  <point x="32.0" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory">
+                  <point x="64.71428571428567" y="-77.0" />
+                  <point x="790.0142857142857" y="498.0" />
+                  <point x="938.8" y="498.0" />
+                  <point x="-151.0" y="77.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory">
+                  <point x="-45.125" y="-77.0" />
+                  <point x="862.425" y="732.0" />
+                  <point x="725.3" y="732.0" />
+                  <point x="0.0" y="77.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.tencent.TencentNASLoad">
+                  <point x="0.0" y="-77.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.ali.AliCloundDiskLoad">
+                  <point x="-129.42857142857144" y="-77.0" />
+                  <point x="595.8714285714286" y="528.0" />
+                  <point x="151.80000000000007" y="528.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.ICloundDiskLoad">
+                  <point x="-129.42857142857144" y="-77.0" />
+                  <point x="1324.8714285714286" y="478.0" />
+                  <point x="585.8" y="478.0" />
+                  <point x="585.8" y="264.0" />
+                  <point x="418.0285714285714" y="264.0" />
+                  <point x="44.19999999999999" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.ICloundDiskLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-23.0" />
+                  <point x="373.8285714285714" y="148.0" />
+                  <point x="735.0723214285716" y="148.0" />
+                  <point x="-29.5" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.ali.AliNASLoad">
+                  <point x="0.0" y="-77.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory" target="gupao.edu.pattern.factory.service.INASLoad">
+                  <point x="0.0" y="-77.0" />
+                  <point x="1089.8" y="274.0" />
+                  <point x="1092.8223214285717" y="274.0" />
+                  <point x="0.0" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory" target="gupao.edu.pattern.factory.service.ICloundDiskLoad">
+                  <point x="-151.0" y="-77.0" />
+                  <point x="938.8" y="254.0" />
+                  <point x="462.2285714285714" y="254.0" />
+                  <point x="88.39999999999998" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory">
+                  <point x="-64.71428571428578" y="-77.0" />
+                  <point x="1389.5857142857142" y="468.0" />
+                  <point x="1240.8" y="468.0" />
+                  <point x="151.0" y="77.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.INASLoad">
+                  <point x="64.71428571428567" y="-77.0" />
+                  <point x="1519.0142857142855" y="498.0" />
+                  <point x="1582.8" y="498.0" />
+                  <point x="1582.8" y="234.0" />
+                  <point x="1156.8223214285717" y="234.0" />
+                  <point x="64.0" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory">
+                  <point x="135.375" y="-77.0" />
+                  <point x="1042.925" y="742.0" />
+                  <point x="1454.3" y="742.0" />
+                  <point x="0.0" y="77.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad">
+                  <point x="194.1428571428571" y="-77.0" />
+                  <point x="919.4428571428571" y="518.0" />
+                  <point x="1722.3" y="518.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory">
+                  <point x="45.125" y="-77.0" />
+                  <point x="952.675" y="732.0" />
+                  <point x="1089.8" y="732.0" />
+                  <point x="0.0" y="77.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.IFTPLoad">
+                  <point x="129.42857142857144" y="-77.0" />
+                  <point x="1583.7285714285713" y="528.0" />
+                  <point x="1922.221279761905" y="528.0" />
+                  <point x="1922.221279761905" y="274.0" />
+                  <point x="1801.85" y="274.0" />
+                  <point x="30.59999999999991" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.INASLoad">
+                  <point x="-64.71428571428572" y="-77.0" />
+                  <point x="660.5857142857143" y="518.0" />
+                  <point x="596.8" y="518.0" />
+                  <point x="596.8" y="264.0" />
+                  <point x="1028.8223214285717" y="264.0" />
+                  <point x="-64.0" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.tencent.TencentCloundDiskLoad">
+                  <point x="-194.14285714285717" y="-77.0" />
+                  <point x="1260.1571428571428" y="488.0" />
+                  <point x="433.30000000000007" y="488.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.tencent.TencentFTPLoad">
+                  <point x="194.1428571428571" y="-77.0" />
+                  <point x="1648.442857142857" y="538.0" />
+                  <point x="2050.721279761905" y="538.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="-135.375" y="-77.0" />
+                  <point x="772.175" y="742.0" />
+                  <point x="0.0" y="742.0" />
+                  <point x="0.0" y="138.0" />
+                  <point x="676.0723214285716" y="138.0" />
+                  <point x="-88.5" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.IFTPLoad">
+                  <point x="129.4285714285714" y="-77.0" />
+                  <point x="854.7285714285714" y="508.0" />
+                  <point x="1593.8" y="508.0" />
+                  <point x="1593.8" y="264.0" />
+                  <point x="1740.65" y="264.0" />
+                  <point x="-30.59999999999991" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.IFTPLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+                  <point x="0.0" y="-23.0" />
+                  <point x="1771.25" y="138.0" />
+                  <point x="853.0723214285716" y="138.0" />
+                  <point x="88.5" y="59.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad" target="gupao.edu.pattern.factory.service.IFTPLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="1722.3" y="274.0" />
+                  <point x="1771.25" y="274.0" />
+                  <point x="0.0" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.tencent.TencentFTPLoad" target="gupao.edu.pattern.factory.service.IFTPLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="2050.721279761905" y="264.0" />
+                  <point x="1832.4499999999998" y="264.0" />
+                  <point x="61.200000000000045" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.ICloundDiskLoad">
+                  <point x="-194.14285714285717" y="-77.0" />
+                  <point x="531.1571428571428" y="538.0" />
+                  <point x="21.800000000000068" y="538.0" />
+                  <point x="21.800000000000068" y="264.0" />
+                  <point x="285.42857142857144" y="264.0" />
+                  <point x="-88.39999999999998" y="23.0" />
+                </edge>
+                <edge source="gupao.edu.pattern.factory.service.impl.ali.AliNASLoad" target="gupao.edu.pattern.factory.service.INASLoad">
+                  <point x="0.0" y="-59.0" />
+                  <point x="725.3" y="274.0" />
+                  <point x="1060.8223214285717" y="274.0" />
+                  <point x="-32.0" y="23.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="396.0" />
+              <SelectedNodes>
+                <node>gupao.edu.pattern.factory.service.impl.tencent.TencentNASLoad</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/test/factory/factorymethod/IFileLoadFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/factorymethod/CloudDiskFactory.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/test/factory/abstractfactory/IFileLoadFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/ali/AliCloundDiskLoad.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/ali/AliFTPLoad.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/ali/AliNASLoad.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/tencent/TencentCloundDiskLoad.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/tencent/TencentFTPLoad.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/tencent/TencentNASLoad.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/CloudDisk.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/FTPLoad.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/NASLoad.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/abstractfactory/AliFileLoadFactory.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/abstractfactory/TencentFileLoadFactory.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/factorymethod/FTPLoadFactory.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/factorymethod/NASLoadFactory.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/test/factory/simplefactory/FileLoadFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/simplefactory/FileLoadFactory.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/factorymethod/IFileLoadFactory.java" />
+        <option value="$PROJECT_DIR$/src/gupao/edu/pattern/factory/abstractfactory/IFileLoadFactory.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="simplefactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupao_edu_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupao_edu_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="simplefactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_work_space\gupao_edu_pattern\src\gupao\edu\pattern\test" />
+      <recent name="D:\git_work_space\gupao_edu_pattern\src\gupao\edu\pattern\factory" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.IFileLoadFactoryTest (1)">
+    <configuration name="FileLoadFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="gupao.edu.pattern.test.factory.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="gupao_edu_pattern" />
+      <envs />
+    </configuration>
+    <configuration name="IFileLoadFactoryTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="gupao.edu.pattern.test.factory.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="gupao_edu_pattern" />
+      <envs />
+    </configuration>
+    <configuration name="IFileLoadFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="gupao.edu.pattern.test.factory.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="gupao_edu_pattern" />
+      <envs />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="gupao_edu_pattern" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.IFileLoadFactoryTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FileLoadFactoryTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IFileLoadFactoryTest (1)" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.IFileLoadFactoryTest (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IFileLoadFactoryTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FileLoadFactoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31014288-d99a-43f8-8d12-54f9f18c8d51" name="Default" comment="" />
+      <created>1552094889243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552094889243</updated>
+      <workItem from="1552094890615" duration="2034000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2034000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22354212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028436018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <element signature="e#64#65#0" expanded="false" />
+            <element signature="e#114#115#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/ali/AliNASLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/tencent/TencentCloundDiskLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/tencent/TencentFTPLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/tencent/TencentNASLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/FTPLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/NASLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/abstractfactory/AliFileLoadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/factorymethod/FTPLoadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/factorymethod/NASLoadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/abstractfactory/IFileLoadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/test/factory/simplefactory/FileLoadFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/test/factory/factorymethod/IFileLoadFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-274.0" y="101.5" />
+          <SelectedNodes>
+            <node>gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/abstractfactory/TencentFileLoadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/CloudDisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/gupao.edu.pattern.factory.service.impl.CloudDisk">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>gupao.edu.pattern.factory.service.impl.CloudDisk</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">gupao.edu.pattern.factory.service.IFileLoad</node>
+            <node x="0.0" y="168.0">gupao.edu.pattern.factory.service.impl.CloudDisk</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="gupao.edu.pattern.factory.service.impl.CloudDisk" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-336.5" y="167.5" />
+          <SelectedNodes>
+            <node>gupao.edu.pattern.factory.service.impl.CloudDisk</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/ali/AliCloundDiskLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/gupao.edu.pattern.factory.service.ICloundDiskLoad">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>gupao.edu.pattern.factory.service.ICloundDiskLoad</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">gupao.edu.pattern.factory.service.IFileLoad</node>
+            <node x="7.5" y="168.0">gupao.edu.pattern.factory.service.ICloundDiskLoad</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="gupao.edu.pattern.factory.service.ICloundDiskLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-23.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-336.5" y="131.5" />
+          <SelectedNodes>
+            <node>gupao.edu.pattern.factory.service.ICloundDiskLoad</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="226.5" y="77.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/test/factory/abstractfactory/IFileLoadFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad</OriginalElement>
+          <nodes>
+            <node x="1336.3" y="312.0">gupao.edu.pattern.factory.service.impl.tencent.TencentNASLoad</node>
+            <node x="646.5723214285716" y="0.0">gupao.edu.pattern.factory.service.IFileLoad</node>
+            <node x="607.3" y="312.0">gupao.edu.pattern.factory.service.impl.ali.AliNASLoad</node>
+            <node x="1012.8223214285716" y="168.0">gupao.edu.pattern.factory.service.INASLoad</node>
+            <node x="32.30000000000007" y="312.0">gupao.edu.pattern.factory.service.impl.ali.AliCloundDiskLoad</node>
+            <node x="498.8" y="558.0">gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory</node>
+            <node x="1694.75" y="168.0">gupao.edu.pattern.factory.service.IFTPLoad</node>
+            <node x="863.3" y="294.0">gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory</node>
+            <node x="1604.3" y="312.0">gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad</node>
+            <node x="727.05" y="762.0">gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest</node>
+            <node x="291.30000000000007" y="312.0">gupao.edu.pattern.factory.service.impl.tencent.TencentCloundDiskLoad</node>
+            <node x="1227.8" y="558.0">gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory</node>
+            <node x="263.3285714285714" y="168.0">gupao.edu.pattern.factory.service.ICloundDiskLoad</node>
+            <node x="1932.721279761905" y="312.0">gupao.edu.pattern.factory.service.impl.tencent.TencentFTPLoad</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="gupao.edu.pattern.factory.service.impl.tencent.TencentCloundDiskLoad" target="gupao.edu.pattern.factory.service.ICloundDiskLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="433.30000000000007" y="274.0" />
+              <point x="373.8285714285714" y="274.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.INASLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-23.0" />
+              <point x="1092.8223214285717" y="148.0" />
+              <point x="794.0723214285716" y="148.0" />
+              <point x="29.5" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory" target="gupao.edu.pattern.factory.service.IFTPLoad">
+              <point x="151.0" y="-77.0" />
+              <point x="1240.8" y="254.0" />
+              <point x="1710.0499999999997" y="254.0" />
+              <point x="-61.200000000000045" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.ali.AliCloundDiskLoad" target="gupao.edu.pattern.factory.service.ICloundDiskLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="151.80000000000007" y="274.0" />
+              <point x="329.6285714285715" y="274.0" />
+              <point x="-44.19999999999999" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.tencent.TencentNASLoad" target="gupao.edu.pattern.factory.service.INASLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="1454.3" y="244.0" />
+              <point x="1124.8223214285717" y="244.0" />
+              <point x="32.0" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory">
+              <point x="64.71428571428567" y="-77.0" />
+              <point x="790.0142857142857" y="498.0" />
+              <point x="938.8" y="498.0" />
+              <point x="-151.0" y="77.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory">
+              <point x="-45.125" y="-77.0" />
+              <point x="862.425" y="732.0" />
+              <point x="725.3" y="732.0" />
+              <point x="0.0" y="77.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.tencent.TencentNASLoad">
+              <point x="0.0" y="-77.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.ali.AliCloundDiskLoad">
+              <point x="-129.42857142857144" y="-77.0" />
+              <point x="595.8714285714286" y="528.0" />
+              <point x="151.80000000000007" y="528.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.ICloundDiskLoad">
+              <point x="-129.42857142857144" y="-77.0" />
+              <point x="1324.8714285714286" y="478.0" />
+              <point x="585.8" y="478.0" />
+              <point x="585.8" y="264.0" />
+              <point x="418.0285714285714" y="264.0" />
+              <point x="44.19999999999999" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.ICloundDiskLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-23.0" />
+              <point x="373.8285714285714" y="148.0" />
+              <point x="735.0723214285716" y="148.0" />
+              <point x="-29.5" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.ali.AliNASLoad">
+              <point x="0.0" y="-77.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory" target="gupao.edu.pattern.factory.service.INASLoad">
+              <point x="0.0" y="-77.0" />
+              <point x="1089.8" y="274.0" />
+              <point x="1092.8223214285717" y="274.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory" target="gupao.edu.pattern.factory.service.ICloundDiskLoad">
+              <point x="-151.0" y="-77.0" />
+              <point x="938.8" y="254.0" />
+              <point x="462.2285714285714" y="254.0" />
+              <point x="88.39999999999998" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory">
+              <point x="-64.71428571428578" y="-77.0" />
+              <point x="1389.5857142857142" y="468.0" />
+              <point x="1240.8" y="468.0" />
+              <point x="151.0" y="77.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.INASLoad">
+              <point x="64.71428571428567" y="-77.0" />
+              <point x="1519.0142857142855" y="498.0" />
+              <point x="1582.8" y="498.0" />
+              <point x="1582.8" y="234.0" />
+              <point x="1156.8223214285717" y="234.0" />
+              <point x="64.0" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory">
+              <point x="135.375" y="-77.0" />
+              <point x="1042.925" y="742.0" />
+              <point x="1454.3" y="742.0" />
+              <point x="0.0" y="77.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad">
+              <point x="194.1428571428571" y="-77.0" />
+              <point x="919.4428571428571" y="518.0" />
+              <point x="1722.3" y="518.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.abstractfactory.IFileLoadFactory">
+              <point x="45.125" y="-77.0" />
+              <point x="952.675" y="732.0" />
+              <point x="1089.8" y="732.0" />
+              <point x="0.0" y="77.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.IFTPLoad">
+              <point x="129.42857142857144" y="-77.0" />
+              <point x="1583.7285714285713" y="528.0" />
+              <point x="1922.221279761905" y="528.0" />
+              <point x="1922.221279761905" y="274.0" />
+              <point x="1801.85" y="274.0" />
+              <point x="30.59999999999991" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.INASLoad">
+              <point x="-64.71428571428572" y="-77.0" />
+              <point x="660.5857142857143" y="518.0" />
+              <point x="596.8" y="518.0" />
+              <point x="596.8" y="264.0" />
+              <point x="1028.8223214285717" y="264.0" />
+              <point x="-64.0" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.tencent.TencentCloundDiskLoad">
+              <point x="-194.14285714285717" y="-77.0" />
+              <point x="1260.1571428571428" y="488.0" />
+              <point x="433.30000000000007" y="488.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.TencentFileLoadFactory" target="gupao.edu.pattern.factory.service.impl.tencent.TencentFTPLoad">
+              <point x="194.1428571428571" y="-77.0" />
+              <point x="1648.442857142857" y="538.0" />
+              <point x="2050.721279761905" y="538.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.abstractfactory.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="-135.375" y="-77.0" />
+              <point x="772.175" y="742.0" />
+              <point x="0.0" y="742.0" />
+              <point x="0.0" y="138.0" />
+              <point x="676.0723214285716" y="138.0" />
+              <point x="-88.5" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.IFTPLoad">
+              <point x="129.4285714285714" y="-77.0" />
+              <point x="854.7285714285714" y="508.0" />
+              <point x="1593.8" y="508.0" />
+              <point x="1593.8" y="264.0" />
+              <point x="1740.65" y="264.0" />
+              <point x="-30.59999999999991" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.IFTPLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-23.0" />
+              <point x="1771.25" y="138.0" />
+              <point x="853.0723214285716" y="138.0" />
+              <point x="88.5" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.ali.AliFTPLoad" target="gupao.edu.pattern.factory.service.IFTPLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="1722.3" y="274.0" />
+              <point x="1771.25" y="274.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.tencent.TencentFTPLoad" target="gupao.edu.pattern.factory.service.IFTPLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="2050.721279761905" y="264.0" />
+              <point x="1832.4499999999998" y="264.0" />
+              <point x="61.200000000000045" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.abstractfactory.AliFileLoadFactory" target="gupao.edu.pattern.factory.service.ICloundDiskLoad">
+              <point x="-194.14285714285717" y="-77.0" />
+              <point x="531.1571428571428" y="538.0" />
+              <point x="21.800000000000068" y="538.0" />
+              <point x="21.800000000000068" y="264.0" />
+              <point x="285.42857142857144" y="264.0" />
+              <point x="-88.39999999999998" y="23.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.ali.AliNASLoad" target="gupao.edu.pattern.factory.service.INASLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="725.3" y="274.0" />
+              <point x="1060.8223214285717" y="274.0" />
+              <point x="-32.0" y="23.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="396.0" />
+          <SelectedNodes>
+            <node>gupao.edu.pattern.factory.service.impl.tencent.TencentNASLoad</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/simplefactory/FileLoadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/service/impl/ali/AliFTPLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/gupao.edu.pattern.factory.simplefactory.FileLoadFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>gupao.edu.pattern.factory.simplefactory.FileLoadFactory</OriginalElement>
+          <nodes>
+            <node x="512.0" y="0.0">gupao.edu.pattern.factory.service.IFileLoad</node>
+            <node x="483.4999999999999" y="336.0">gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest</node>
+            <node x="768.0" y="186.0">gupao.edu.pattern.factory.simplefactory.FileLoadFactory</node>
+            <node x="512.0" y="168.0">gupao.edu.pattern.factory.service.impl.NASLoad</node>
+            <node x="0.0" y="168.0">gupao.edu.pattern.factory.service.impl.FTPLoad</node>
+            <node x="256.0" y="168.0">gupao.edu.pattern.factory.service.impl.CloudDisk</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="117.20000000000005" y="-59.0" />
+              <point x="747.1999999999999" y="316.0" />
+              <point x="1306.5" y="316.0" />
+              <point x="1306.5" y="138.0" />
+              <point x="724.4" y="138.0" />
+              <point x="94.39999999999998" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.FTPLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="118.0" y="138.0" />
+              <point x="535.6" y="138.0" />
+              <point x="-94.39999999999998" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" target="gupao.edu.pattern.factory.simplefactory.FileLoadFactory">
+              <point x="58.60000000000002" y="-59.0" />
+              <point x="688.5999999999999" y="306.0" />
+              <point x="1032.0" y="306.0" />
+              <point x="0.0" y="41.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.CloudDisk" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="374.0" y="148.0" />
+              <point x="582.8" y="148.0" />
+              <point x="-47.200000000000045" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" target="gupao.edu.pattern.factory.service.impl.FTPLoad">
+              <point x="-117.19999999999999" y="-59.0" />
+              <point x="512.8" y="316.0" />
+              <point x="118.0" y="316.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" target="gupao.edu.pattern.factory.service.impl.NASLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.simplefactory.FileLoadFactory" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-41.0" />
+              <point x="1032.0" y="148.0" />
+              <point x="677.2" y="148.0" />
+              <point x="47.200000000000045" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.NASLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.simplefactory.FileLoadFactoryTest" target="gupao.edu.pattern.factory.service.impl.CloudDisk">
+              <point x="-58.60000000000002" y="-59.0" />
+              <point x="571.3999999999999" y="306.0" />
+              <point x="374.0" y="306.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-109.0" y="189.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/factorymethod/IFileLoadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gupao/edu/pattern/factory/factorymethod/CloudDiskFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/gupao.edu.pattern.factory.factorymethod.IFileLoadFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>gupao.edu.pattern.factory.factorymethod.IFileLoadFactory</OriginalElement>
+          <nodes>
+            <node x="524.8888888888889" y="0.0">gupao.edu.pattern.factory.service.IFileLoad</node>
+            <node x="873.6155555555556" y="356.0">gupao.edu.pattern.factory.factorymethod.FTPLoadFactory</node>
+            <node x="579.5" y="488.0">gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest</node>
+            <node x="401.0233333333333" y="356.0">gupao.edu.pattern.factory.factorymethod.NASLoadFactory</node>
+            <node x="573.0" y="206.0">gupao.edu.pattern.factory.factorymethod.IFileLoadFactory</node>
+            <node x="286.5" y="188.0">gupao.edu.pattern.factory.service.impl.NASLoad</node>
+            <node x="889.0" y="188.0">gupao.edu.pattern.factory.service.impl.FTPLoad</node>
+            <node x="0.0" y="188.0">gupao.edu.pattern.factory.service.impl.CloudDisk</node>
+            <node x="85.02333333333331" y="356.0">gupao.edu.pattern.factory.factorymethod.CloudDiskFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="gupao.edu.pattern.factory.factorymethod.IFileLoadFactory" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-41.0" />
+              <point x="721.0" y="168.0" />
+              <point x="657.6388888888889" y="168.0" />
+              <point x="14.75" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.factorymethod.FTPLoadFactory" target="gupao.edu.pattern.factory.service.impl.FTPLoad">
+              <point x="0.0" y="-41.0" />
+              <point x="1021.6155555555556" y="336.0" />
+              <point x="1007.0" y="336.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.FTPLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="1007.0" y="158.0" />
+              <point x="687.1388888888889" y="158.0" />
+              <point x="44.25" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.factorymethod.FTPLoadFactory" target="gupao.edu.pattern.factory.factorymethod.IFileLoadFactory">
+              <point x="-98.66666666666674" y="-41.0" />
+              <point x="922.9488888888889" y="336.0" />
+              <point x="832.0" y="336.0" />
+              <point x="111.0" y="41.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.factorymethod.NASLoadFactory" target="gupao.edu.pattern.factory.service.impl.NASLoad">
+              <point x="-98.66666666666663" y="-41.0" />
+              <point x="450.3566666666667" y="326.0" />
+              <point x="404.5" y="326.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.factorymethod.FTPLoadFactory" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="98.66666666666674" y="-41.0" />
+              <point x="1120.2822222222223" y="336.0" />
+              <point x="1145.0" y="336.0" />
+              <point x="1145.0" y="148.0" />
+              <point x="716.6388888888889" y="148.0" />
+              <point x="73.75" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.CloudDisk" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-59.0" />
+              <point x="118.0" y="138.0" />
+              <point x="539.6388888888889" y="138.0" />
+              <point x="-103.25" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.factorymethod.CloudDiskFactory" target="gupao.edu.pattern.factory.service.impl.CloudDisk">
+              <point x="-98.66666666666669" y="-41.0" />
+              <point x="134.35666666666668" y="336.0" />
+              <point x="118.0" y="336.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.factorymethod.NASLoadFactory">
+              <point x="-71.39999999999998" y="-59.0" />
+              <point x="686.6" y="458.0" />
+              <point x="549.0233333333333" y="458.0" />
+              <point x="0.0" y="41.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.service.impl.NASLoad" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="5.6843418860808015E-14" y="-59.0" />
+              <point x="404.50000000000006" y="158.0" />
+              <point x="598.6388888888889" y="158.0" />
+              <point x="-44.25" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.factorymethod.IFileLoadFactory">
+              <point x="0.0" y="-59.0" />
+              <point x="37.0" y="41.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.factorymethod.NASLoadFactory" target="gupao.edu.pattern.factory.factorymethod.IFileLoadFactory">
+              <point x="98.66666666666669" y="-41.0" />
+              <point x="647.69" y="336.0" />
+              <point x="684.0" y="336.0" />
+              <point x="-37.0" y="41.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.factorymethod.FTPLoadFactory">
+              <point x="71.39999999999998" y="-59.0" />
+              <point x="829.4" y="458.0" />
+              <point x="1021.6155555555556" y="458.0" />
+              <point x="0.0" y="41.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.factorymethod.CloudDiskFactory">
+              <point x="-142.8" y="-59.0" />
+              <point x="615.2" y="468.0" />
+              <point x="233.0233333333333" y="468.0" />
+              <point x="0.0" y="41.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.factorymethod.NASLoadFactory" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="5.6843418860808015E-14" y="-41.0" />
+              <point x="549.0233333333333" y="326.0" />
+              <point x="562.5" y="326.0" />
+              <point x="562.5" y="168.0" />
+              <point x="628.1388888888889" y="168.0" />
+              <point x="-14.75" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.factorymethod.CloudDiskFactory" target="gupao.edu.pattern.factory.factorymethod.IFileLoadFactory">
+              <point x="98.66666666666669" y="-41.0" />
+              <point x="331.69" y="336.0" />
+              <point x="610.0" y="336.0" />
+              <point x="-111.0" y="41.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.test.factory.factorymethod.IFileLoadFactoryTest" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="142.79999999999995" y="-59.0" />
+              <point x="900.8" y="468.0" />
+              <point x="1180.1155555555556" y="468.0" />
+              <point x="1180.1155555555556" y="138.0" />
+              <point x="746.1388888888889" y="138.0" />
+              <point x="103.25" y="59.0" />
+            </edge>
+            <edge source="gupao.edu.pattern.factory.factorymethod.CloudDiskFactory" target="gupao.edu.pattern.factory.service.IFileLoad">
+              <point x="0.0" y="-41.0" />
+              <point x="233.0233333333333" y="336.0" />
+              <point x="246.5" y="336.0" />
+              <point x="246.5" y="148.0" />
+              <point x="569.1388888888889" y="148.0" />
+              <point x="-73.75" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="656.0" y="301.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gupao_edu_pattern</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
